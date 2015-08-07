@@ -129,5 +129,15 @@
 	},
 	"watch" : ["server"],
 	"ignore_watch" : ["node_modules"]
+    },
+    {
+	"name"	: "provisioning-monitor",
+	"cwd"	: "./provisioning-monitor",
+	"script": "provisioning-monitor.js",
+	"env"	: {
+	    "NODE_ENV"	: "local"
+	},
+	"watch" : ["server"],
+	"ignore_watch" : ["node_modules"]
     }
 ]
