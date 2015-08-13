@@ -1,143 +1,152 @@
 [
     {
-	"name"	: "configd",
-	"cwd"	: "./configd",
-	"script": "configd.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
-	"watch" : ["public","server"],
-	"ignore_watch" : ["node_modules"]
+	    "name"	: "configd",
+	    "cwd"	: "./configd",
+	    "script": "configd.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["public","server"],
+	    "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "forex",
-	"cwd"	: "./forex",
-	"script": "forex.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "forex",
+	    "cwd"	: "./forex",
+	    "script": "forex.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },	
     {
-	"name"	: "schema-explorer",
-	"cwd"	: "./schema-explorer",
-	"script": "schema-explorer.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "schema-explorer",
+	    "cwd"	: "./schema-explorer",
+	    "script": "schema-explorer.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
-
     },
     {
-	"name"	: "bceu-api",
-	"cwd"	: "./bceu-api",
-	"script": "bceu-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "bceu-api",
+	    "cwd"	: "./bceu-api",
+	    "script": "bceu-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },	
     {
-	"name"	: "imt-indexer",
-	"cwd"	: "./imt-indexer",
-	"script": "imt-indexer.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "imt-indexer",
+	    "cwd"	: "./imt-indexer",
+	    "script": "imt-indexer.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },	
     {
-	"name"	: "article-indexer",
-	"cwd"	: "./article-indexer",
-	"script": "article-indexer.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "article-indexer",
+	    "cwd"	: "./article-indexer",
+	    "script": "article-indexer.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },	
     {
-	"name"	: "install",
-	"cwd"	: "./install",
-	"script": "install.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "install",
+	    "cwd"	: "./install",
+	    "script": "install.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },	
     {
-	"name"	: "listing-api",
-	"cwd"	: "./listing-api",
-	"script": "listing-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "listing-api",
+	    "cwd"	: "./listing-api",
+	    "script": "listing-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "editorial-api",
-	"cwd"	: "./editorial-api",
-	"script": "editorial-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "editorial-api",
+	    "cwd"	: "./editorial-api",
+	    "script": "editorial-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "geo-api",
-	"cwd"	: "./geo-api",
-	"script": "geo-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "geo-api",
+	    "cwd"	: "./geo-api",
+	    "script": "geo-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "dealer-locator-api",
-	"cwd"	: "./dealer-locator-api",
-	"script": "dealer-locator-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "dealer-locator-api",
+	    "cwd"	: "./dealer-locator-api",
+	    "script": "dealer-locator-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["public","server"],
         "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "youtube-video-content-indexer",
-	"cwd"	: "./youtube-video-content-indexer",
-	"script": "youtube-video-content-indexer.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
+	    "name"	: "youtube-video-content-indexer",
+	    "cwd"	: "./youtube-video-content-indexer",
+	    "script": "youtube-video-content-indexer.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
         "watch" : ["server"],
-	"ignore_watch" : ["node_modules"]
+	    "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "video-content-api",
-	"cwd"	: "./video-content-api",
-	"script": "video-content-api.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
-	"watch" : ["server"],
-	"ignore_watch" : ["node_modules"]
+	    "name"	: "video-content-api",
+	    "cwd"	: "./video-content-api",
+	    "script": "video-content-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]
     },
     {
-	"name"	: "provisioning-monitor",
-	"cwd"	: "./provisioning-monitor",
-	"script": "provisioning-monitor.js",
-	"env"	: {
-	    "NODE_ENV"	: "local"
-	},
-	"watch" : ["server"],
-	"ignore_watch" : ["node_modules"]
+	    "name"	: "provisioning-monitor",
+	    "cwd"	: "./provisioning-monitor",
+	    "script": "provisioning-monitor.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]
+    },
+    {
+	    "name"	: "provisioning-indexer",
+	    "cwd"	: "./provisioing-indexer",
+	    "script": "provisioning-indexer.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]        
     }
 ]
