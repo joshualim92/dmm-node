@@ -20,16 +20,6 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "schema-explorer",
-	    "cwd"	: "./schema-explorer",
-	    "script": "schema-explorer.js",
-	    "env"	: {
-	        "NODE_ENV"	: "local"
-	    },
-        "watch" : ["public","server"],
-        "ignore_watch" : ["node_modules"]
-    },
-    {
 	    "name"	: "bceu-api",
 	    "cwd"	: "./bceu-api",
 	    "script": "bceu-api.js",
@@ -130,19 +120,19 @@
 	    "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "provisioning-monitor",
-	    "cwd"	: "./provisioning-monitor",
-	    "script": "provisioning-monitor.js",
+	    "name"	: "provisioning-indexer",
+	    "cwd"	: "./provisioning-indexer",
+	    "script": "provisioning-indexer.js",
 	    "env"	: {
 	        "NODE_ENV"	: "local"
 	    },
 	    "watch" : ["server"],
-	    "ignore_watch" : ["node_modules"]
+	    "ignore_watch" : ["node_modules"]        
     },
     {
-	    "name"	: "provisioning-indexer",
-	    "cwd"	: "./provisioing-indexer",
-	    "script": "provisioning-indexer.js",
+	    "name"	: "provisioning-api",
+	    "cwd"	: "./provisioning-api",
+	    "script": "provisioning-api.js",
 	    "env"	: {
 	        "NODE_ENV"	: "local"
 	    },
