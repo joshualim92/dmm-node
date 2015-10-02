@@ -138,5 +138,15 @@
 	    },
 	    "watch" : ["server"],
 	    "ignore_watch" : ["node_modules"]        
+    },
+    {
+	    "name"	: "listing-monitor",
+	    "cwd"	: "./listing-monitor",
+	    "script": "listing-monitor.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]                
     }
 ]
