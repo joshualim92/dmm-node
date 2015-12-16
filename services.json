@@ -1,6 +1,6 @@
 [
     {
-	    "name"	: "configd",
+	    "name"	: "CONFIGD",
 	    "cwd"	: "./configd",
 	    "script": "configd.js",
 	    "env"	: {
@@ -10,7 +10,7 @@
 	    "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "forex",
+	    "name"	: "FOREX",
 	    "cwd"	: "./forex",
 	    "script": "forex.js",
 	    "env"	: {
@@ -20,7 +20,7 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "bceu-api",
+	    "name"	: "BCEU-API",
 	    "cwd"	: "./bceu-api",
 	    "script": "bceu-api.js",
 	    "env"	: {
@@ -30,7 +30,7 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "imt-indexer",
+	    "name"	: "IMT-INDEXER",
 	    "cwd"	: "./imt-indexer",
 	    "script": "imt-indexer.js",
 	    "env"	: {
@@ -40,7 +40,7 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "article-indexer",
+	    "name"	: "ARTICLE-INDEXER",
 	    "cwd"	: "./article-indexer",
 	    "script": "article-indexer.js",
 	    "env"	: {
@@ -50,7 +50,7 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "install",
+	    "name"	: "INSTALL",
 	    "cwd"	: "./install",
 	    "script": "install.js",
 	    "env"	: {
@@ -60,7 +60,7 @@
         "ignore_watch" : ["node_modules"]
     },	
     {
-	    "name"	: "listing-api",
+	    "name"	: "LISTING-API",
 	    "cwd"	: "./listing-api",
 	    "script": "listing-api.js",
 	    "env"	: {
@@ -70,7 +70,7 @@
         "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "editorial-api",
+	    "name"	: "EDITORIAL-API",
 	    "cwd"	: "./editorial-api",
 	    "script": "editorial-api.js",
 	    "env"	: {
@@ -80,7 +80,7 @@
         "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "geo-api",
+	    "name"	: "GEO-API",
 	    "cwd"	: "./geo-api",
 	    "script": "geo-api.js",
 	    "env"	: {
@@ -90,7 +90,7 @@
         "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "dealer-locator-api",
+	    "name"	: "DEALER-LOCATOR-API",
 	    "cwd"	: "./dealer-locator-api",
 	    "script": "dealer-locator-api.js",
 	    "env"	: {
@@ -100,7 +100,7 @@
         "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "youtube-video-content-indexer",
+	    "name"	: "YOUTUBE-VIDEO-CONTENT-INDEXER",
 	    "cwd"	: "./youtube-video-content-indexer",
 	    "script": "youtube-video-content-indexer.js",
 	    "env"	: {
@@ -110,7 +110,7 @@
 	    "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "video-content-api",
+	    "name"	: "VIDEO-CONTENT-API",
 	    "cwd"	: "./video-content-api",
 	    "script": "video-content-api.js",
 	    "env"	: {
@@ -120,7 +120,7 @@
 	    "ignore_watch" : ["node_modules"]
     },
     {
-	    "name"	: "provisioning-indexer",
+	    "name"	: "PROVISIONING-INDEXER",
 	    "cwd"	: "./provisioning-indexer",
 	    "script": "provisioning-indexer.js",
 	    "env"	: {
@@ -130,7 +130,7 @@
 	    "ignore_watch" : ["node_modules"]        
     },
     {
-	    "name"	: "provisioning-api",
+	    "name"	: "PROVISIONING-API",
 	    "cwd"	: "./provisioning-api",
 	    "script": "provisioning-api.js",
 	    "env"	: {
@@ -140,7 +140,7 @@
 	    "ignore_watch" : ["node_modules"]        
     },
     {
-	    "name"	: "listing-monitor",
+	    "name"	: "LISTING-MONITOR",
 	    "cwd"	: "./listing-monitor",
 	    "script": "listing-monitor.js",
 	    "env"	: {
@@ -150,9 +150,29 @@
 	    "ignore_watch" : ["node_modules"]                
     },
     {
-	    "name"	: "provisioning-monitor",
+	    "name"	: "PROVISIONING-MONITOR",
 	    "cwd"	: "./provisioning-monitor",
 	    "script": "provisioning-monitor.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]                
+    },
+    {
+	    "name"	: "IMT-API",
+	    "cwd"	: "./imt-api",
+	    "script": "imt-api.js",
+	    "env"	: {
+	        "NODE_ENV"	: "local"
+	    },
+	    "watch" : ["server"],
+	    "ignore_watch" : ["node_modules"]                
+    },
+        {
+	    "name"	: "BCNA-INDEXER",
+	    "cwd"	: "./bcna-indexer",
+	    "script": "bcna-indexer.js",
 	    "env"	: {
 	        "NODE_ENV"	: "local"
 	    },
